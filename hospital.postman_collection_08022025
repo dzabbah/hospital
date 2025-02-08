@@ -1,0 +1,225 @@
+{
+	"info": {
+		"_postman_id": "42401edd-a8c4-4cad-8fc9-df265a10fe5c",
+		"name": "hospital",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "41798151"
+	},
+	"item": [
+		{
+			"name": "consultation",
+			"item": [
+				{
+					"name": "createConsultation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "localhost:3885/consultation/create"
+					},
+					"response": []
+				},
+				{
+					"name": "findallConsultation",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3885/consultation/all"
+					},
+					"response": []
+				},
+				{
+					"name": "findOneConsultation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3885/consultation/2"
+					},
+					"response": []
+				},
+				{
+					"name": "deleteOneConsultation",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "localhost:3885/concultation/3/delete"
+					},
+					"response": []
+				},
+				{
+					"name": "updateOneConsultation",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": "localhost:3885/consultation/2/"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "meeting",
+			"item": [
+				{
+					"name": "findalleMeeting",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3885/meeting/all"
+					},
+					"response": []
+				},
+				{
+					"name": "createMeeting",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"url": "localhost:3885/meeting/create"
+					},
+					"response": []
+				},
+				{
+					"name": "findOneMeeting",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3885/findOneMeeting/2/"
+					},
+					"response": []
+				},
+				{
+					"name": "deleteOneMeeting",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "localhost:3885/meeting:2/delete"
+					},
+					"response": []
+				},
+				{
+					"name": "updateOneMeeting",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": "localhost:3885/meeting/3/"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "doctors",
+			"item": [
+				{
+					"name": "deleteOneMeeting",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "localhost:3885/doctor/3/delete"
+					},
+					"response": []
+				},
+				{
+					"name": "createDoctor",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"url": "localhost:3885/doctor/create"
+					},
+					"response": []
+				},
+				{
+					"name": "findallMeeting",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3885/meeting/all"
+					},
+					"response": []
+				},
+				{
+					"name": "findOneMeeting",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3885/doctor/2/"
+					},
+					"response": []
+				},
+				{
+					"name": "updateOneDoctor",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": "localhost:3885/fdoctor/2/"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "patients",
+			"item": [
+				{
+					"name": "deleteOnePatient",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "localhost:3885/patient/3/delete"
+					},
+					"response": []
+				},
+				{
+					"name": "createPatient",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"url": "localhost:3885/doctor/create"
+					},
+					"response": []
+				},
+				{
+					"name": "findallPatient",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3885/meeting/all"
+					},
+					"response": []
+				},
+				{
+					"name": "findOnePatient",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3885/doctor/2/"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
